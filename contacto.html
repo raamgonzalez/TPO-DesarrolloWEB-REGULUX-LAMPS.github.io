@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="Img/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/0a0b671341.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Regulux Lamps</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="brand">
+                <h1>REGU<br>LUX</h1>
+            </div>
+            <ul class="menu flex" >
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="#" href="articulos.html">Trabajos </a></li>
+                <li><a class="#" href="acerca.html">Acerca </a></li>
+                <li><a class="#" href="contacto.html">Contacto </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <h2>Formulario de Contacto:</h2> <br>
+            <p>Por favor, Ingrese sus datos y envienos su Consulta.</p> <br>
+
+            <div class="formulario">
+                <label for="nombre" class="nombre">Nombre:</label>
+                <input type="text" class="nombre" maxlength="15"  id="nombre" placeholder="Ingrese su Nombre Aqui">
+            </div><br>
+
+            <div class="formulario">
+                <label for="apellido" class="apellido">Apellido:</label>
+                <input type="text" class="apellido"  maxlength="15" id="apellido" placeholder="Ingrese su Apellido Aqui">
+            </div><br>
+
+            <div class="formulario1">
+                <label for="contacto" class="contacto">Número de Telefono:</label>
+                <input type="number" class="contacto" maxlength="15"  id="contacto" placeholder="Ingrese su Número Aqui">
+            </div><br>
+
+            <div class="formulario1">
+                <label for="email" class="email">E-mail:</label>
+                <input type="email" class="email" id="email" placeholder="Ingrese su Número Aqui">
+            </div><br>
+
+            <p>Seleccione un Horario, para que nos Comuniquemos Telefonicamente.</p>
+            <input type="radio" name="horario" value="Mañana"> De 9:00 A 12:00Hs<br>
+            <input type="radio" name="horario" value="Tarde"> De 14:00 A 18:00Hs<br>
+
+            <div>
+                <p>Escriba su Mensaje.</p>
+                <textarea name="mensaje" maxlength="300" ></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div>
+                    <h2>REGULUX LAMPS</h2>
+                </div>
+                <div>
+                    <h5>&copy; 2022 GRUPO 14 desarrollos digitales</h5>
+                </div>
+            </div>
+            <div class="social-network">
+                <a href="https://www.instagram.com/reguluxlamps" class="icon icon-instagram" target="_blank"><i class="fa-brands fa-instagram fa-1x"></i></a>
+                <a href="#" class="icon icon-pinterest" target="_blank"><i class="fa-brands fa-pinterest fa-1x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+
+:root{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Header */
+header{
+    /* background-color: rgb(179, 139, 139); */
+    margin: 0 2rem;
+}
+
+.navbar{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#brand{
+    /* background-color: rgb(91, 179, 142); */
+    color: #F2CC85;
+    text-align: justify;
+    margin: 1rem;
+}
+
+
+.menu{
+    /* background-color: rgb(91, 179, 142); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-width: 30%;
+    margin: 1rem;
+}
+
+.menu li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5F5C5C;
+}
+
+.menu .active {
+    color: #0E0D15;
+    font-weight: 600;
+}
+
+.menu a:hover{
+    color: #F2CC85;
+    transition:ease-in 0.4s;
+}
+
+/* Main */
+.main{
+    /* background-color: coral; */
+    margin: 2rem auto;
+    align-items: center;
+}
+
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-flex img{
+    transition: 0.5s;
+    object-fit: cover;
+    margin-left: 3rem;
+}
+
+.main-flex img:hover{
+    transform: scale(1.02);
+}
+
+.container-1 {
+    padding: 1rem;
+}
+
+.container-1 h2{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.container-1 p{
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* Footer */
+footer{
+    /* background-color: aqua; */
+    margin-top: auto;
+    width: 100vw;
+    /* border-top: #0E0D15 1px solid; */
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer-content{
+    /* background-color: rgb(91, 179, 142); */
+    padding-left: 3rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color:#0E0D15;
+}
+
+.footer-content h2{
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    color:#0E0D15;
+}
+
+.footer-content h5{
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color:#0E0D15;
+}
+
+.social-network{
+    /* background-color: rgb(91, 179, 142); */
+    color:#0E0D15;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 3rem;
+    margin: auto 0;
+}
+
+.social-network .icon{
+    padding-left:  1rem;
+    font-size: 1.05rem;
+    color:#0E0D15;
+}
